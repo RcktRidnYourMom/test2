@@ -1,0 +1,207 @@
+
+
+* {
+  box-sizing: border-box;
+}
+header, footer{
+  background-image: url(img/
+}
+
+body{
+    background-color: rgb(93, 7, 114);
+    background-image: url('img/cloclo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: right top;
+    margin: 0;
+
+}
+
+p{
+    text-align: center;
+    align-items: center;
+}
+@font-face {
+  font-family: "Popfine";
+  src: url(fonts/POPFINE\ Italic.ttf);
+}
+h1{
+  text-align: center;
+  margin: 0;
+  font-family: "Popfine";
+  font-size: 80px;
+  text-shadow: -1px 0 rgb(253, 40, 2) , 1px 0 rgb(253, 40, 2) , 0 1px rgb(253, 40, 2) , 0 -1px rgb(253, 40, 2);
+  color : rgb(65, 52, 52);
+ 
+}
+@font-face {
+  font-family: "Gonzi";
+  src: url(fonts/GonziCondensedPERSONALUSE-BlackItalic.otf);
+}
+h2{
+  
+  font-size: 40px;
+  font-family: "Gonzi";
+  text-shadow: 2px 5px 3px rgb(253, 40, 2) ;
+ 
+
+}
+@font-face{
+  font-family:"Righteous";
+  src :url(fonts/Righteous-Regular.ttf)
+}
+
+
+article{
+  color: aliceblue;
+  font-family:"Righteous";
+}
+
+#p1{
+    text-align: left;
+    color: aliceblue;
+    font-size: 20px;
+}
+div{
+    color: antiquewhite;
+}
+#pagin{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Righteous";
+    text-shadow: -1px 0 rgb(253, 40, 2) , 1px 0 rgb(253, 40, 2) , 0 1px rgb(253, 40, 2) , 0 -1px rgb(253, 40, 2);
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  @font-face {
+    font-family: "Sharon";
+    src: url(fonts/Sharon\ -\ Personal\ Use.ttf);
+  }
+  h3{
+      margin-bottom: 20px;
+      font-family: "Sharon";
+      text-shadow: 2px 3px 1px rgb(253, 40, 2) ;
+      color: rgb(239, 248, 113);
+
+  }
+  h2{
+    margin-bottom: 20px;
+    color: rgb(239, 248, 113);
+  }
+  h5{
+    font-size: 20px;
+    font-family: "Sharon";
+    text-shadow: -1px 0 rgb(253, 40, 2) , 1px 0 rgb(253, 40, 2) , 0 1px rgb(253, 40, 2) , 0 -1px rgb(253, 40, 2);
+    
+  }
+  
+  /* Style the header */
+ 
+  
+  /* Style the top navigation bar 
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links 
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    min-width: 500px;
+  }
+  
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  #giochi{
+    color: orange;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(239, 248, 113);
+    text-align: center;
+   
+    
+  }
+  .posiziona{
+    position: sticky;
+    top: 0px;
+  }
+  
+  li {
+    float: left;
+    text-align: center;
+   
+  }
+  
+  li a {
+    display: block;
+    color: rgb(130, 5, 141);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ 
+    font-size: 20px;
+   
+    font-family: "Righteous";
+    text-shadow: -1px 0 rgb(253, 40, 2) , 1px 0 rgb(253, 40, 2) , 0 1px rgb(253, 40, 2) , 0 -1px rgb(253, 40, 2);
+  
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(141, 155, 214);
+  }
+  #a1:visited{
+    text-decoration: dotted;
+    color: black;
+    text-shadow:1px 2px 1px rgb(253, 40, 2);
+  }
+  
